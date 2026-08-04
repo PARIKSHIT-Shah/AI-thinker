@@ -104,20 +104,20 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-brand">
           <span className="shield">🛡</span>
-          Content Moderation API — MCP Demo
+          Content Moderation Using APIs...
         </div>
         <div className="stats-row">
           <span className="stat-pill">
             <span className="stat-dot" style={{ background: "var(--text-dim)" }} />
-            {stats.total} total
+            {stats.total} total....
           </span>
           <span className="stat-pill">
             <span className="stat-dot" style={{ background: "var(--safe)" }} />
-            {stats.safe} safe
+            {stats.safe} safe....
           </span>
           <span className="stat-pill">
             <span className="stat-dot" style={{ background: "var(--blocked)" }} />
-            {stats.blocked} blocked
+            {stats.blocked} blocked....
           </span>
         </div>
       </header>
@@ -149,7 +149,7 @@ export default function App() {
         </div>
 
         <div className="pane">
-          <span className="pane-label">Flagged with reason</span>
+          <span className="pane-label">Flagged with Reason</span>
 
           {!result && !loading && !error && (
             <div className="empty-hint">
